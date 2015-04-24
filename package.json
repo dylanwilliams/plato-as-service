@@ -58,7 +58,7 @@
         "load-grunt-tasks": "*"
     },
     "scripts": {
-        "postinstall": "./node_modules/.bin/bower install && ./node_modules/.bin/grunt",
+        "postinstall": "bower install && grunt",
         "test" : "make validate",
         "lint": "make lint",
         "coverage": "make coverage",
